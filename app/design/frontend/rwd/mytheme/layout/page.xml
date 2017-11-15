@@ -83,6 +83,10 @@
                 </block>
             </block>
 
+            <block type="core/text_list" name="home_slider" as="home_slider">   
+            </block>
+
+
             <block type="core/text_list" name="after_body_start" as="after_body_start" translate="label">
                 <label>Page Top</label>
             </block>
@@ -140,7 +144,7 @@
                 <block type="page/template_links" name="footer_links" as="footer_links" template="page/template/links.phtml">
                     <action method="setTitle"><title>Quick Links</title></action>
                 </block>
-                <block type="page/template_links" name="footer_links2" as="footer_links2" template="page/template/links.phtml">
+                <block type="page/template_links" name=" 2" as="footer_links2" template="page/template/links.phtml">
                     <action method="setTitle"><title>Account</title></action>
                 </block>
                 <!-- This static block can be created and populated in admin. The footer_links cms block can be used as a starting point. -->

@@ -61,6 +61,27 @@
                      alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
             </a>
             <?php // Product description ?>
+            <?php foreach ($this->getStoreCategories() as $_category): ?>
+                <?php $open = $this->isCategoryActive($_category); ?>
+                <?php
+                $cur_category=Mage::getModel('catalog/category')->load($_category->getId());
+                $layer = Mage::getSingleton('catalog/layer');
+                $layer->setCurrentCategory($cur_category);
+                if ($immagine = $this->getCurrentCategory()->getImageUrl()):
+                ?>
+                    <div style="float: left; padding-right: 30px; text-align: center;">
+                        <div class="linkimage">
+                            <p>
+                                <a href="<?php echo $this->getCategoryUrl($_category)?>">
+                                    <img src="<?php echo $immagine ?>" alt="<?php echo $this->htmlEscape($this->getCurrentCategory()->getName()) ?>" width="135" height="135" />
+                                    <?php echo $_category->getName()?>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                <?php endif; ?>
+            <?php endforeach; ?>
             <div class="product-shop">
                 <div class="f-fix">
                     <div class="product-primary">
