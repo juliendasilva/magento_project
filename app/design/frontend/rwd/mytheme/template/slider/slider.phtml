@@ -1,0 +1,10 @@
+<?php
+$categoryId = 8;
+$products = Mage::getSingleton('catalog/category')->load($categoryId)
+	->getProductCollection()
+	->addAttributeToSelect('*');
+?>
+
+<?php foreach($products as $product): ?>
+<img src="<?php echo $this->helper('catalog/image')->init($product, 'small_image')->keepFrame(false) ?>" alt="">
+<?php endforeach; ?>
