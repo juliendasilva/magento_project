@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$font-size-h2".
-        on line 14 of /var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block5.scss
+        on line 16 of /var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block5.scss
 
-9:   width: 100%
-10:   span {
 11:     color: red
 12:   }
 13:   .title {
-14:     font-size: $font-size-h2;
-15:     line-height: $line-height-h2;
-16:     font-weight: $font-weight-light;
-17:     color: $block-color;
-18:     margin-bottom: 45px;
-19:   }
+14:     padding-top: 55px;
+15:     margin-top: 60px;
+16:     font-size: $font-size-h2;
+17:     line-height: $line-height-h2;
+18:     font-weight: $font-weight-light;
+19:     color: $block-color;
+20:     margin-bottom: 45px;
+21:   }
 
 Backtrace:
-/var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block5.scss:14
+/var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block5.scss:16
 /usr/lib/ruby/vendor_ruby/sass/script/tree/variable.rb:49:in `_perform'
 /usr/lib/ruby/vendor_ruby/sass/script/tree/node.rb:50:in `perform'
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -79,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-size-h2\".\A         on line 14 of /var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block5.scss\A \A 9:   width: 100%\A 10:   span {\A 11:     color: red\A 12:   }\A 13:   .title {\A 14:     font-size: $font-size-h2;\A 15:     line-height: $line-height-h2;\A 16:     font-weight: $font-weight-light;\A 17:     color: $block-color;\A 18:     margin-bottom: 45px;\A 19:   }"; }
+  content: "Error: Undefined variable: \"$font-size-h2\".\A         on line 16 of /var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block5.scss\A \A 11:     color: red\A 12:   }\A 13:   .title {\A 14:     padding-top: 55px;\A 15:     margin-top: 60px;\A 16:     font-size: $font-size-h2;\A 17:     line-height: $line-height-h2;\A 18:     font-weight: $font-weight-light;\A 19:     color: $block-color;\A 20:     margin-bottom: 45px;\A 21:   }"; }

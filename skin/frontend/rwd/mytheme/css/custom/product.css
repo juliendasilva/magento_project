@@ -35,6 +35,14 @@
   padding-bottom: 140px;
 }
 
+.product-essential {
+  display: none;
+}
+
+.product-view {
+  display: none;
+}
+
 .product {
   color: white;
 }
