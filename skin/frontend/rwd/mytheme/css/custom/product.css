@@ -1,31 +1,134 @@
 .header_product {
-  height: 75px;
-  width: 100%;
   font-family: Helvetica;
+  margin-top: -65px;
+  padding-left: 125px;
+  display: flex;
+  position: relative;
 }
 
 .header_product button {
   height: inherit;
-  width: 100px;
   border: none;
   border-radius: 0;
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 300;
+  width: 90px;
+  height: 65px;
+  padding: 20px 0;
+  outline: none;
 }
 
 .buy {
-  margin-left: 150px;
   background: white;
   font-size: 1.2em;
 }
 
 .price {
-  margin-left: 30px;
   background: #4a4a4a;
   color: white;
 }
 
 .container {
+  position: relative;
   background: black;
   width: 100%;
+  padding-bottom: 140px;
+}
+
+.product {
+  color: white;
+}
+
+.paraph {
+  margin-left: 260px;
+  padding-top: 90px;
+  width: 300px;
+}
+
+h2 {
+  text-transform: none;
+}
+
+.paraph h2 {
+  color: white;
+  font-size: 3em;
+  text-transform: none;
+}
+
+.paraph p {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-weight: 300;
+  line-height: 2em;
+  color: white;
+}
+
+.block_product1 {
+  position: absolute;
+  right: 300px;
+  top: 300px;
+}
+
+.block_product2 {
+  position: absolute;
+  right: 30px;
+  top: 150px;
+}
+
+h1, h2, h3 {
+  text-transform: none;
+}
+
+.details {
+  margin-top: 300px;
+}
+.details h3 {
+  position: relative;
+  padding-left: 470px;
+  font-size: 2.5em;
+  color: white;
+}
+.details h3:before {
+  content: "";
+  position: absolute;
+  background: white;
+  height: 3px;
+  width: 140px;
+  left: 300px;
+  top: 25px;
+}
+
+.block_product {
+  margin-left: 500px;
+}
+
+.details_whole {
+  float: left;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
+
+.details_carac {
+  position: relative;
+  color: white;
+  margin-left: 450px;
+  margin-top: 60px;
+  font-weight: 300;
+}
+.details_carac .firstDetails {
+  font-size: 1.5em;
+}
+.details_carac li span {
+  color: grey;
+}
+.details_carac:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  top: 20px;
+  left: -70px;
 }

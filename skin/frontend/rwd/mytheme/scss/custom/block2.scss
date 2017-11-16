@@ -21,6 +21,8 @@
             line-height: $line-height-h2;
             font-weight: $font-weight-light;
             color: $block-color;
+            margin-bottom: 45px;
+            text-transform: inherit;
         }
 
         p {
@@ -33,9 +35,15 @@
             float: left;
         }
 
-        img {
+        .img1 {
             position: absolute;
-            right: 0;
+            right: -5%;
+            top: 17%;
+        }
+
+        .img2 {
+            position: absolute;
+            right: 10%;
         }
     }
 
@@ -48,6 +56,8 @@
         border-bottom: 2px solid #080A15;
         line-height: $line-height-p;
         font-weight: $font-weight-light;
-        display: inline-block;
+        display: block;
+        width: 115px;
+        margin-top: 15px;
     }
 }

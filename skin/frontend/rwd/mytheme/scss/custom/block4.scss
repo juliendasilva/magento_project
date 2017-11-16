@@ -1,0 +1,57 @@
+/* Block */
+
+.this_other_cup_block4 {
+    background: #F5F5F5;
+    position: relative;
+    padding: 100px 200px;
+    overflow: hidden;
+    height: 700px;
+
+    .this_other_cup_title {
+        font-size: $font-size-h2;
+        line-height: $line-height-h2;
+        font-weight: $font-weight-light;
+        color: $block-color;
+        margin-bottom: 45px;
+        border: transparent;
+        text-align: right;
+        text-transform: inherit;
+    }
+
+    p {
+        width: 35%;
+        font-size : $font-size-p;
+        line-height: $line-height-p;
+        font-weight: $font-weight-light;
+        color: $block-color;
+        float: right;
+    }
+
+    .img1 {
+        position: absolute;
+        left: -5%;
+        top: 25%;
+        z-index: 2;
+    }
+
+    .img2 {
+        position: absolute;
+        left: -5%;
+        top: 36%;
+    }
+
+    span {
+        padding: 0px 35px 10px 0px;
+        border-bottom: 2px solid #080A15;
+        line-height: $line-height-p;
+        font-weight: $font-weight-light;
+        display: block;
+        width: 115px;
+        margin-top: 15px;
+    }
+}
+
+
+
+
+

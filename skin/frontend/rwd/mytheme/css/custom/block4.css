@@ -1,35 +1,24 @@
 /*
 Error: Undefined variable: "$font-size-h2".
-        on line 20 of /var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block2.scss
+        on line 11 of /var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block4.scss
 
-15:     .our_nice_info {
-16:         padding: 100px 80px;
-17:         overflow: hidden;
-18: 
-19:         .our_nice_job_title {
-20:             font-size: $font-size-h2;
-21:             line-height: $line-height-h2;
-22:             font-weight: $font-weight-light;
-23:             color: $block-color;
-24:             margin-bottom: 45px;
-25:             text-transform: inherit;
+6:     padding: 100px 200px;
+7:     overflow: hidden;
+8:     height: 700px;
+9: 
+10:     .this_other_cup_title {
+11:         font-size: $font-size-h2;
+12:         line-height: $line-height-h2;
+13:         font-weight: $font-weight-light;
+14:         color: $block-color;
+15:         margin-bottom: 45px;
+16:         border: transparent;
 
 Backtrace:
-/var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block2.scss:20
+/var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block4.scss:11
 /usr/lib/ruby/vendor_ruby/sass/script/tree/variable.rb:49:in `_perform'
 /usr/lib/ruby/vendor_ruby/sass/script/tree/node.rb:50:in `perform'
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:395:in `visit_prop'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `map'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:429:in `visit_rule'
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
@@ -90,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-size-h2\".\A         on line 20 of /var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block2.scss\A \A 15:     .our_nice_info {\A 16:         padding: 100px 80px;\A 17:         overflow: hidden;\A 18: \A 19:         .our_nice_job_title {\A 20:             font-size: $font-size-h2;\A 21:             line-height: $line-height-h2;\A 22:             font-weight: $font-weight-light;\A 23:             color: $block-color;\A 24:             margin-bottom: 45px;\A 25:             text-transform: inherit;"; }
+  content: "Error: Undefined variable: \"$font-size-h2\".\A         on line 11 of /var/www/html/skin/frontend/rwd/mytheme/scss/./../scss/custom/block4.scss\A \A 6:     padding: 100px 200px;\A 7:     overflow: hidden;\A 8:     height: 700px;\A 9: \A 10:     .this_other_cup_title {\A 11:         font-size: $font-size-h2;\A 12:         line-height: $line-height-h2;\A 13:         font-weight: $font-weight-light;\A 14:         color: $block-color;\A 15:         margin-bottom: 45px;\A 16:         border: transparent;"; }

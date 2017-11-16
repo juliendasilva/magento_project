@@ -10705,35 +10705,138 @@ div.calendar table td.button {
 }
 
 .header_product {
-  height: 75px;
-  width: 100%;
   font-family: Helvetica;
+  margin-top: -65px;
+  padding-left: 125px;
+  display: flex;
+  position: relative;
 }
 
 .header_product button {
   height: inherit;
-  width: 100px;
   border: none;
   border-radius: 0;
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 300;
+  width: 90px;
+  height: 65px;
+  padding: 20px 0;
+  outline: none;
 }
 
 .buy {
-  margin-left: 150px;
   background: white;
   font-size: 1.2em;
 }
 
 .price {
-  margin-left: 30px;
   background: #4a4a4a;
   color: white;
 }
 
 .container {
+  position: relative;
   background: black;
   width: 100%;
+  padding-bottom: 140px;
+}
+
+.product {
+  color: white;
+}
+
+.paraph {
+  margin-left: 260px;
+  padding-top: 90px;
+  width: 300px;
+}
+
+h2 {
+  text-transform: none;
+}
+
+.paraph h2 {
+  color: white;
+  font-size: 3em;
+  text-transform: none;
+}
+
+.paraph p {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-weight: 300;
+  line-height: 2em;
+  color: white;
+}
+
+.block_product1 {
+  position: absolute;
+  right: 300px;
+  top: 300px;
+}
+
+.block_product2 {
+  position: absolute;
+  right: 30px;
+  top: 150px;
+}
+
+h1, h2, h3 {
+  text-transform: none;
+}
+
+.details {
+  margin-top: 300px;
+}
+.details h3 {
+  position: relative;
+  padding-left: 470px;
+  font-size: 2.5em;
+  color: white;
+}
+.details h3:before {
+  content: "";
+  position: absolute;
+  background: white;
+  height: 3px;
+  width: 140px;
+  left: 300px;
+  top: 25px;
+}
+
+.block_product {
+  margin-left: 500px;
+}
+
+.details_whole {
+  float: left;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
+
+.details_carac {
+  position: relative;
+  color: white;
+  margin-left: 450px;
+  margin-top: 60px;
+  font-weight: 300;
+}
+.details_carac .firstDetails {
+  font-size: 1.5em;
+}
+.details_carac li span {
+  color: grey;
+}
+.details_carac:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  top: 20px;
+  left: -70px;
 }
 
 /* Block */
@@ -10757,6 +10860,8 @@ div.calendar table td.button {
   line-height: 56px;
   font-weight: 300;
   color: #080A15;
+  margin-bottom: 45px;
+  text-transform: inherit;
 }
 .our_nice_job_block2 .our_nice_info p {
   width: 45%;
@@ -10767,9 +10872,14 @@ div.calendar table td.button {
   color: #080A15;
   float: left;
 }
-.our_nice_job_block2 .our_nice_info img {
+.our_nice_job_block2 .our_nice_info .img1 {
   position: absolute;
-  right: 0;
+  right: -5%;
+  top: 17%;
+}
+.our_nice_job_block2 .our_nice_info .img2 {
+  position: absolute;
+  right: 10%;
 }
 .our_nice_job_block2 .our_nice_job_title {
   border-bottom: transparent;
@@ -10779,7 +10889,139 @@ div.calendar table td.button {
   border-bottom: 2px solid #080A15;
   line-height: 30px;
   font-weight: 300;
-  display: inline-block;
+  display: block;
+  width: 115px;
+  margin-top: 15px;
+}
+
+/* Block */
+.this_first_cup_block3 {
+  background: #F5F5F5;
+  position: relative;
+  padding: 100px 200px;
+  overflow: hidden;
+  height: 700px;
+}
+.this_first_cup_block3 .this_first_cup_title {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 300;
+  color: #080A15;
+  margin-bottom: 45px;
+  border: transparent;
+  text-transform: inherit;
+}
+.this_first_cup_block3 p {
+  width: 35%;
+  margin-right: 50px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #080A15;
+  float: left;
+}
+.this_first_cup_block3 .img1 {
+  position: absolute;
+  right: -5%;
+  top: 25%;
+  z-index: 2;
+}
+.this_first_cup_block3 .img2 {
+  position: absolute;
+  right: -5%;
+}
+.this_first_cup_block3 span {
+  padding: 0px 35px 10px 0px;
+  border-bottom: 2px solid #080A15;
+  line-height: 30px;
+  font-weight: 300;
+  display: block;
+  width: 115px;
+  margin-top: 15px;
+}
+
+/* Block */
+.this_other_cup_block4 {
+  background: #F5F5F5;
+  position: relative;
+  padding: 100px 200px;
+  overflow: hidden;
+  height: 700px;
+}
+.this_other_cup_block4 .this_other_cup_title {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 300;
+  color: #080A15;
+  margin-bottom: 45px;
+  border: transparent;
+  text-align: right;
+  text-transform: inherit;
+}
+.this_other_cup_block4 p {
+  width: 35%;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #080A15;
+  float: right;
+}
+.this_other_cup_block4 .img1 {
+  position: absolute;
+  left: -5%;
+  top: 25%;
+  z-index: 2;
+}
+.this_other_cup_block4 .img2 {
+  position: absolute;
+  left: -5%;
+  top: 36%;
+}
+.this_other_cup_block4 span {
+  padding: 0px 35px 10px 0px;
+  border-bottom: 2px solid #080A15;
+  line-height: 30px;
+  font-weight: 300;
+  display: block;
+  width: 115px;
+  margin-top: 15px;
+}
+
+/* Block */
+.shop_block5_container {
+  padding-top: 100px;
+  background-color: green;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 500px;
+  width: 100% span;
+  width-color: red;
+}
+.shop_block5_container .title {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 300;
+  color: #080A15;
+  margin-bottom: 45px;
+}
+.shop_block5_container p {
+  width: 35%;
+  margin-right: 50px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #080A15;
+  float: left;
+}
+.shop_block5_container .images {
+  display: block;
+  clear: both;
+}
+.shop_block5_container .img1 {
+  float: left;
+}
+.shop_block5_container .img2 {
+  padding-left: 30px;
 }
 
 .homeSlider {
@@ -10797,7 +11039,8 @@ div.calendar table td.button {
   bottom: 0px;
   right: 202px;
   z-index: 3;
-  padding: 20px 30px;
+  width: 90px;
+  padding: 20px 0;
   background: #ffffff;
   text-align: center;
   border: none;
@@ -10809,7 +11052,8 @@ div.calendar table td.button {
   bottom: 0px;
   right: 128px;
   z-index: 3;
-  padding: 20px 30px;
+  width: 90px;
+  padding: 20px 0;
   background: #ffffff;
   text-align: center;
   border: none;
@@ -10864,8 +11108,4 @@ body.cms-home .main-container {
 }
 #header .skip-links a {
   color: #9b9b9b;
-}
-
-.cms-home .skip-links a {
-  color: #ffffff !important;
 }
