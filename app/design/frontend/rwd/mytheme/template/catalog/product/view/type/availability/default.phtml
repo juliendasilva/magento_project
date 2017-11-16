@@ -28,12 +28,12 @@ $_product = $this->getProduct(); ?>
     <?php if ($_product->isAvailable()): ?>
         <p class="availability in-stock">
             <span class="label"><?php echo $this->helper('catalog')->__('Availability:') ?></span>
-            <span class="value"><?php echo $this->helper('catalog')->__('In stock') ?></span>
+            <span class="value"><?php echo $this->helper('catalog')->__('En stock') ?></span>
         </p>
     <?php else: ?>
         <p class="availability out-of-stock">
             <span class="label"><?php echo $this->helper('catalog')->__('Availability:') ?></span>
-            <span class="value"><?php echo $this->helper('catalog')->__('Out of stock') ?></span>
+            <span class="value"><?php echo $this->helper('catalog')->__('En rupture de stock') ?></span>
         </p>
     <?php endif; ?>
 <?php endif; ?>

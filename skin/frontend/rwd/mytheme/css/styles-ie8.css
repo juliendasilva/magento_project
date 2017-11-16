@@ -1139,7 +1139,7 @@ a.button:hover {
   position: relative;
   max-width: 1260px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0px;
 }
 .main-container:after,
 .footer-container:after {
@@ -1150,7 +1150,7 @@ a.button:hover {
 
 .main-container,
 .footer-container {
-  padding: 30px;
+  padding: 0px;
 }
 
 .footer-container {
@@ -1196,7 +1196,7 @@ a.button:hover {
 
 .col-main {
   float: left;
-  width: 75%;
+  width: 100%;
 }
 
 .col1-layout .col-main {
@@ -2684,7 +2684,8 @@ body {
 
 .page-header-container {
   position: relative;
-  background: #dcdcdc;
+  background: #F5F5F5;
+  height: 200px;
 }
 
 .header-language-container,
@@ -2723,6 +2724,7 @@ body {
   float: right;
   max-width: 35%;
   padding: 13px 15px 10px 10px;
+  display: none;
 }
 .page-header-container .store-language-container label {
   display: none;
@@ -2781,6 +2783,20 @@ body {
   overflow: hidden;
   border-top: 1px solid #EDEDED;
   border-bottom: 1px solid #EDEDED;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+
+.skip-links p {
+  float: left;
+  margin: 0 20px;
+}
+
+.skip-links a {
+  color: #000;
 }
 
 .skip-links {
@@ -2855,7 +2871,7 @@ a.skip-link {
 
 .skip-content.skip-active {
   display: block;
-  background: #EDEDED;
+  background: red;
 }
 
 /* ============================================ *
@@ -3344,6 +3360,11 @@ a.skip-link {
 .footer,
 .footer button {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+
+.footer-container {
+  margin: 0;
+  width: 100%;
 }
 
 .footer {

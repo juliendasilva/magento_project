@@ -5,6 +5,19 @@ $products = Mage::getSingleton('catalog/category')->load($categoryId)
 	->addAttributeToSelect('*');
 ?>
 
-<?php foreach($products as $product): ?>
-<img src="<?php echo $this->helper('catalog/image')->init($product, 'small_image')->keepFrame(false) ?>" alt="">
-<?php endforeach; ?>
+<div class="homeSlider">
+    <?php foreach($products as $product): ?>
+    <div class="homeSlider_item">
+        <img src="<?php echo $this->helper('catalog/image')->init($product, 'small_image')->keepFrame(false) ?>" alt="" class="homeSlider_img">
+    </div>
+    <?php endforeach; ?>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.homeSlider').slick();
+    // $('.homeSlider').slick();
+})
+</script>
