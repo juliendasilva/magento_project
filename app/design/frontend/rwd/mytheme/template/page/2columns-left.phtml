@@ -39,15 +39,27 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js"> <!--<![endif]-->
 
 <head>
-<?php echo $this->getChildHtml('head') ?>
+
 </head>
 <body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<?php echo $this->getChildHtml('head') ?>
 <?php echo $this->getChildHtml('after_body_start') ?>
 <div class="wrapper">
     <?php echo $this->getChildHtml('global_notices') ?>
     <div class="page">
         <?php echo $this->getChildHtml('header') ?>
         <div class="main-container col2-left-layout">
+        <div class="header_product">
+        <button class="buy">Acheter</button>
+        <button class="price">109€</button>
+    </div>
+    <div class="container">
+    <div class="paraph">
+        <h2>Cup model. 1</h2>
+        <p>Aenean pulvinar tortor felis, eu blandit ligula tincidunt sed. Etiam consequat metus a convallis ullamcorper. Nulla id lectus tellus. Etiam viverra augue eu lectus fringilla, fringilla placerat lorem interdum. Nam massa elit, interdum eu mi sed, ultricies finibus massa. Donec aliquet enim sit amet dui tempor maximus. Nunc purus ipsum, mattis id eros id, tristique fermentum ipsum. Sed porttitor molestie fermentum. Praesent faucibus hendrerit purus, ac viverra nibh pellentesque eu. Cras euismod felis gravida, convallis ligula non, suscipit ligula. Curabitur nisl augue, porta in blandit </p>
+    </div>
+
+    </div>
             <div class="main">
                 <?php echo $this->getChildHtml('breadcrumbs') ?>
                 <?php // This left_first block will display above the main content on smaller viewports ?>
@@ -61,6 +73,7 @@
                 <div class="col-left sidebar"><?php echo $this->getChildHtml('left') ?></div>
             </div>
         </div>
+        <h1>HELLO</h1>
         <?php echo $this->getChildHtml('footer_before') ?>
         <?php echo $this->getChildHtml('footer') ?>
         <?php echo $this->getChildHtml('global_cookie_notice') ?>

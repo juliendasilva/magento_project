@@ -1,0 +1,53 @@
+/* Block */
+
+.our_nice_job_block2 {
+    background: #fff;
+    height: 800px;
+
+    .our_nice_container {
+        background: #F5F5F5;
+        width: 1024px !important;
+        margin: -61px auto 0px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .our_nice_info {
+        padding: 100px 80px;
+        overflow: hidden;
+
+        .our_nice_job_title {
+            font-size: $font-size-h2;
+            line-height: $line-height-h2;
+            font-weight: $font-weight-light;
+            color: $block-color;
+        }
+
+        p {
+            width: 45%;
+            margin-right: 50px; 
+            font-size : $font-size-p;
+            line-height: $line-height-p;
+            font-weight: $font-weight-light;
+            color: $block-color;
+            float: left;
+        }
+
+        img {
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    .our_nice_job_title {
+        border-bottom: transparent;
+    }
+
+    span {
+        padding: 0px 35px 10px 0px;
+        border-bottom: 2px solid #080A15;
+        line-height: $line-height-p;
+        font-weight: $font-weight-light;
+        display: inline-block;
+    }
+}

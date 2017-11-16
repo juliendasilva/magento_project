@@ -1,0 +1,46 @@
+.homeSlider{
+    width: 100%;
+    position: relative;
+    .slick-list{
+        width: 100%;
+    }
+    .homeSlider_img{
+        width: 100%;
+    }
+    .homeSliderPrev{
+        position: absolute;
+        bottom: 0px;
+        right: 202px;
+        z-index: 3;
+        padding: 20px 30px;
+        background: #ffffff;
+        text-align: center;
+        border: none;
+        border-radius: 0;
+        outline: none;
+    }
+    .homeSliderNext{
+        position: absolute;
+        bottom: 0px;
+        right: 128px;
+        z-index: 3;
+        padding: 20px 30px;
+        background: #ffffff;
+        text-align: center;
+        border: none;
+        border-radius: 0;
+        outline: none;
+    }
+}
+
+.prettyprinted{
+    display: none;
+}
+
+body.cms-home .main-container{
+    padding-top: 0 !important;
+}
+
+.our_nice_job_block2 .our_nice_container{
+    width: 100%
+}

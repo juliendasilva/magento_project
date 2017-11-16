@@ -39,6 +39,8 @@ $mq-fixed-value: 1024;
  */
 body.cms-home .main-container {
   padding-top: 20px;
+  margin: 0;
+  width: 100%;
 }
 body.cms-home .slideshow-container {
   margin-top: 0;

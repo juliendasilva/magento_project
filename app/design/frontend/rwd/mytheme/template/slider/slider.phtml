@@ -17,7 +17,10 @@ $products = Mage::getSingleton('catalog/category')->load($categoryId)
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script>
 $(document).ready(function(){
-    $('.homeSlider').slick();
-    // $('.homeSlider').slick();
+    $('.homeSlider').slick({
+        autoplay: true,
+        prevArrow: '<button type="button" class="homeSliderPrev"> <- </button>',
+        nextArrow: '<button type="button" class="homeSliderNext"> -> </button>'
+    });
 })
 </script>

@@ -1,0 +1,36 @@
+#header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+#header .page-header-container {
+  background: none;
+  height: auto;
+  margin-top: 40px;
+  padding: 0 66px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .logo {
+  width: auto;
+  min-width: auto;
+  min-height: auto;
+  padding: 0;
+}
+#header .logo img {
+  width: 100px;
+}
+#header .skip-links {
+  position: initial;
+}
+#header .skip-links p:last-child {
+  margin-right: 0;
+}
+#header .skip-links a span {
+  color: #9b9b9b;
+}
+#header .skip-links a {
+  color: #9b9b9b;
+}

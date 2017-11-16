@@ -1,0 +1,90 @@
+.col-main {
+  padding: 0;
+}
+
+.cms-page-view .std li {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.footer address {
+  position: absolute;
+  bottom: 50px;
+  border-top: none;
+}
+
+.main-container {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+}
+
+.footer-container {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+}
+
+.social_media {
+  position: absolute;
+  bottom: 75px;
+  right: 0;
+  height: 75px;
+  width: auto;
+}
+
+.footer address {
+  padding-left: 50px;
+  font-size: 1em;
+  text-align: left;
+  color: white;
+}
+
+.footer {
+  height: 300px;
+  border: none;
+  background: black;
+}
+
+.footer .links {
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+  width: auto;
+  float: none;
+  text-transform: none;
+}
+
+.footer ul li {
+  font-size: 2em;
+  padding-left: 30px;
+  display: inline-block;
+  font-weight: 300;
+  font-style: normal;
+  font-family: 'Roboto';
+}
+
+.cup {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  height: 100px;
+}
+
+.footer .links ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .links li {
+  padding-left: 30px;
+}
+
+.product {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 100px;
+  margin-top: 200px;
+}

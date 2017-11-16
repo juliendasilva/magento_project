@@ -1,0 +1,31 @@
+.header_product {
+  height: 75px;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+.header_product button {
+  height: inherit;
+  width: 100px;
+  border: none;
+  border-radius: 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.buy {
+  margin-left: 150px;
+  background: white;
+  font-size: 1.2em;
+}
+
+.price {
+  margin-left: 30px;
+  background: #4a4a4a;
+  color: white;
+}
+
+.container {
+  background: black;
+  width: 100%;
+}

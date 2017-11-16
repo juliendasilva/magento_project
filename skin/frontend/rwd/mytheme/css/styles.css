@@ -3147,6 +3147,7 @@ form .form-instructions {
 html,
 body {
   height: 100%;
+  font-family: 'Helvetica Neue';
 }
 
 .wrapper {
@@ -10610,4 +10611,261 @@ div.calendar table td.button {
   background: inherit;
   color: inherit;
   text-transform: none;
+}
+
+.col-main {
+  padding: 0;
+}
+
+.cms-page-view .std li {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.footer address {
+  position: absolute;
+  bottom: 50px;
+  border-top: none;
+}
+
+.main-container {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+}
+
+.footer-container {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+}
+
+.social_media {
+  position: absolute;
+  bottom: 75px;
+  right: 0;
+  height: 75px;
+  width: auto;
+}
+
+.footer address {
+  padding-left: 50px;
+  font-size: 1em;
+  text-align: left;
+  color: white;
+}
+
+.footer {
+  height: 300px;
+  border: none;
+  background: black;
+}
+
+.footer .links {
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+  width: auto;
+  float: none;
+  text-transform: none;
+}
+
+.footer ul li {
+  font-size: 2em;
+  padding-left: 30px;
+  display: inline-block;
+  font-weight: 300;
+  font-style: normal;
+  font-family: 'Roboto';
+}
+
+.cup {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  height: 100px;
+}
+
+.footer .links ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .links li {
+  padding-left: 30px;
+}
+
+.product {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+
+.header_product {
+  height: 75px;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+.header_product button {
+  height: inherit;
+  width: 100px;
+  border: none;
+  border-radius: 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.buy {
+  margin-left: 150px;
+  background: white;
+  font-size: 1.2em;
+}
+
+.price {
+  margin-left: 30px;
+  background: #4a4a4a;
+  color: white;
+}
+
+.container {
+  background: black;
+  width: 100%;
+}
+
+/* Block */
+.our_nice_job_block2 {
+  background: #fff;
+  height: 800px;
+}
+.our_nice_job_block2 .our_nice_container {
+  background: #F5F5F5;
+  width: 1024px !important;
+  margin: -61px auto 0px;
+  z-index: 2;
+  position: relative;
+}
+.our_nice_job_block2 .our_nice_info {
+  padding: 100px 80px;
+  overflow: hidden;
+}
+.our_nice_job_block2 .our_nice_info .our_nice_job_title {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 300;
+  color: #080A15;
+}
+.our_nice_job_block2 .our_nice_info p {
+  width: 45%;
+  margin-right: 50px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #080A15;
+  float: left;
+}
+.our_nice_job_block2 .our_nice_info img {
+  position: absolute;
+  right: 0;
+}
+.our_nice_job_block2 .our_nice_job_title {
+  border-bottom: transparent;
+}
+.our_nice_job_block2 span {
+  padding: 0px 35px 10px 0px;
+  border-bottom: 2px solid #080A15;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.homeSlider {
+  width: 100%;
+  position: relative;
+}
+.homeSlider .slick-list {
+  width: 100%;
+}
+.homeSlider .homeSlider_img {
+  width: 100%;
+}
+.homeSlider .homeSliderPrev {
+  position: absolute;
+  bottom: 0px;
+  right: 202px;
+  z-index: 3;
+  padding: 20px 30px;
+  background: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+.homeSlider .homeSliderNext {
+  position: absolute;
+  bottom: 0px;
+  right: 128px;
+  z-index: 3;
+  padding: 20px 30px;
+  background: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.prettyprinted {
+  display: none;
+}
+
+body.cms-home .main-container {
+  padding-top: 0 !important;
+}
+
+.our_nice_job_block2 .our_nice_container {
+  width: 100%;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+#header .page-header-container {
+  background: none;
+  height: auto;
+  margin-top: 40px;
+  padding: 0 66px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .logo {
+  width: auto;
+  min-width: auto;
+  min-height: auto;
+  padding: 0;
+}
+#header .logo img {
+  width: 100px;
+}
+#header .skip-links {
+  position: initial;
+}
+#header .skip-links p:last-child {
+  margin-right: 0;
+}
+#header .skip-links a span {
+  color: #9b9b9b;
+}
+#header .skip-links a {
+  color: #9b9b9b;
+}
+
+.cms-home .skip-links a {
+  color: #ffffff !important;
 }
